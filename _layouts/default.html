@@ -1,0 +1,14 @@
+---
+layout: base
+---
+{% include header.html %}
+
+<main>
+	{{ content }}
+</main>
+
+{% include footer.html %}
+
+{% if jekyll.environment == 'production' and site.analytics.tag %}
+{% include analytics.html tag=site.analytics.tag %}
+{% endif %}

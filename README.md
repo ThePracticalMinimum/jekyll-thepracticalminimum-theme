@@ -1,2 +1,2 @@
 # jekyll-thepracticalminimum-theme
-Jekyll theme for official The Practical Minimum website
+Jekyll theme for the official The Practical Minimum website
